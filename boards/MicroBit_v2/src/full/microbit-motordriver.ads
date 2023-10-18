@@ -34,13 +34,17 @@ with HAL;     use HAL;
 package MicroBit.MotorDriver is
 
    type Directions is (Forward,
+                       Backward,
                        Left,
                        Right,
                        Forward_Left,
+                       Forward_Right,
                        Backward_Left,
+                       Backward_Right,
                        Turning,
                        Lateral_Left,
                        Rotating_Left,
+                       Rotating_Right,
                        Stop);
 
    type Speeds is record
