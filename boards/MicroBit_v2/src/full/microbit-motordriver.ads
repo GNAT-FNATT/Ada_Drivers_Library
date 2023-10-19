@@ -42,7 +42,10 @@ package MicroBit.MotorDriver is
                        Backward_Left,
                        Backward_Right,
                        Turning,
-                       Lateral_Left,
+                       Pivot_Back_Left,
+                       Pivot_Back_Right,
+                       Pivot_Front_Left,
+                       Pivot_Front_Right,
                        Rotating_Left,
                        Rotating_Right,
                        Stop);
